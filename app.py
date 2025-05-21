@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Project Initiated'
+    return '<h1>Project Initiated</h1>'
